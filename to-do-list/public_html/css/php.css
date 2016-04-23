@@ -1,0 +1,55 @@
+.button--navbar {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    width: 70px;
+    height: 70px;
+    margin-top: -18px;
+    margin-left:-50%;
+    overflow: hidden;
+    outline:none;
+    position: absolute;
+}
+
+.category-list div {
+    position: relative;
+}
+
+.addCat {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.category-list span {
+    left: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.form_search {
+    display: inline-block;
+}
+
+.checkbox_addfields {
+    position: absolute;
+    right: 19px;
+    top:17px;
+    width:25px;
+    height: 25px;
+}
+
+.submit_tdetails {
+    border:1px solid rgba(255,255,255,0.3);
+    float: right;
+    margin: 0 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.submit_finished {
+    font-size: 14px;
+    border: 1px solid black;
+    z-index:1;
+}
